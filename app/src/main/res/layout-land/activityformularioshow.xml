@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioShowActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="@string/evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeevento"/>
+
+    <EditText
+        android:hint="@string/dias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dias"/>
+
+    <EditText
+        android:hint="@string/horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horas"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:id="@+id/botaosalvar"/>
+
+    <Button
+        android:id="@+id/botaolista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shows" />
+</LinearLayout>
+</ScrollView>
